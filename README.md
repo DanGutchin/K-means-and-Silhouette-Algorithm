@@ -23,7 +23,8 @@ This algorithm is an improvement to the k-means algorithm by using vectorization
 ![image](https://user-images.githubusercontent.com/74405706/173426521-de9eeb43-9365-48e3-b106-bceeadd6984e.png)
 
 ## Results
-Our implementation’s speed is approximately: 43 seconds (on my machine)
+Our implementation’s speed is approximately: 43 seconds (on my machine).
+
 This is worse than the python implementation because we didnt use AVX instructions so we could not achive NumPy level of optimization.
 
 
